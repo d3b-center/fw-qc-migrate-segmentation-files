@@ -1,0 +1,42 @@
+{
+  "author": "D3b-TIRU",
+  "command": "poetry run python run.py",
+  "config": {
+    "debug": {
+      "default": false,
+      "description": "Log debug messages",
+      "type": "boolean"
+    }
+  },
+  "custom": {
+    "flywheel": {
+      "suite": "D3b-TIRU"
+    },
+    "gear-builder": {
+      "category": "utility",
+      "image": "chop.flywheel.io/d3b-qc-migrate-seg-files:0.0.0"
+    }
+  },
+  "environment": {
+    "PATH": "/opt/poetry/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "PYTHON_VERSION": "3.9.7",
+    "PIP_NO_CACHE_DIR": "0",
+    "POETRY_HOME": "/opt/poetry",
+    "POETRY_VERSION": "1.1.11",
+    "POETRY_VIRTUALENVS_CREATE": "false",
+    "FLYWHEEL": "/flywheel/v0"
+  },
+  "inputs": {
+    "api-key": {
+      "base": "api-key",
+      "read-only": true
+    }
+  },
+  "label": "Migrate finalized segmentations",
+  "description": "This gear QCs and copies segmentation files to final project CBTN_completed_segmentations.",
+  "license": "Apache-2.0",
+  "maintainer": "D3b-TIRU <flywheel@d3b.center>",
+  "name": "d3b-migrate-seg-files",
+  "source": "https://github.com/d3b-center/fw-qc-migrate-segmentation-files", 
+  "version": "0.0.0"
+}
