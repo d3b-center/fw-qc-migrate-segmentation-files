@@ -8,7 +8,7 @@ Run at the session-level (either in batch or on a single session).
 
 ### Inputs
 
-None
+None (gear will automatically go through all files in the session)
 
 ### Configuration
 
@@ -18,5 +18,4 @@ None
 
 Current limitations of the gear are as follows:
 
-* only runs on output of d3b-ped-preproc-pipeline-batch (could modify to expand this functionality)
-* relies on proper subject_label (C-ID) & session_label (age) for valid file naming
+* 
