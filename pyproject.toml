@@ -9,7 +9,7 @@ keywords = [
     "Flywheel",
     "Gears"
 ]
-repository = "https://github.com/d3b-center/fw-copy-proc-2-acq"
+repository = "https://github.com/d3b-center/fw-qc-migrate-segmentation-files"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -17,6 +17,7 @@ flywheel-gear-toolkit = "^0.5"
 fw-core-client = "^1.0.2"
 fw-file = "^1.0.3"
 flywheel-sdk = "^16.16.7"
+pandas = "1.5.3"
 
 [build-system]
 requires = ["poetry>=0.12"]
