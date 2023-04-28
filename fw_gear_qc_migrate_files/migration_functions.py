@@ -1,7 +1,7 @@
 
 import os
 from glob import glob
-import zipfile
+# import zipfile
 import shutil
 import nibabel as nib
 

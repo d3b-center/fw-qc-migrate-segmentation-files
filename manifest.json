@@ -14,7 +14,7 @@
     },
     "gear-builder": {
       "category": "utility",
-      "image": "chop.flywheel.io/d3b-qc-migrate-seg-files:0.0.0-1"
+      "image": "chop.flywheel.io/d3b-qc-migrate-seg-files:0.0.1"
     }
   },
   "environment": {
@@ -38,5 +38,5 @@
   "maintainer": "D3b-TIRU <flywheel@d3b.center>",
   "name": "d3b-migrate-seg-files",
   "source": "https://github.com/d3b-center/fw-qc-migrate-segmentation-files", 
-  "version": "0.0.0-1"
+  "version": "0.0.1"
 }
